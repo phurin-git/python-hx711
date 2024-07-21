@@ -1,11 +1,9 @@
-
 # Python HX711 Library
 
 This repository provides a Python library for interfacing with the HX711 load cell amplifier. Traditionally, HX711 sensors have official libraries available only in C++ for Arduino. This library aims to fill that gap by offering a Python implementation, making it compatible with platforms such as the Jetson Nano that use Python GPIO for sensor integration.
 ## Example
 
 ```python
-# Load Cell Calibration
 # Load Cell Calibration
 from HX711 import HX711
 import RPi.GPIO as GPIO
